@@ -9,6 +9,9 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  showTxt:function(){
+    console.log('打印文本')
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
